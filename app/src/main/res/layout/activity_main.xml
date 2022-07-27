@@ -12,13 +12,12 @@
 
     tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/result_text"
+    <ImageView
+        android:id="@+id/dice_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/FirstText"
-        android:textSize="30sp"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/dice_1" />
 
     <Button
         android:id="@+id/roll_button"
@@ -26,20 +25,20 @@
         android:layout_height="wrap_content"
         android:text="@string/roll_label"
         android:layout_gravity="center_horizontal"/>
-    <Button
-        android:id="@+id/countup_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/count_up_label"
-        android:layout_gravity="center_horizontal"/>
+<!--    <Button-->
+<!--        android:id="@+id/countup_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/count_up_label"-->
+<!--        android:layout_gravity="center_horizontal"/>-->
 
-    <Button
-        android:id="@+id/reset_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/reset"
-        android:layout_gravity="right"
-        android:layout_marginTop="80sp"
-        android:layout_marginRight="25sp"/>
+<!--    <Button-->
+<!--        android:id="@+id/reset_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/reset"-->
+<!--        android:layout_gravity="right"-->
+<!--        android:layout_marginTop="80sp"-->
+<!--        android:layout_marginRight="25sp"/>-->
 
 </LinearLayout>
